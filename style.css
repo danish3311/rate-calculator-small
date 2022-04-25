@@ -127,7 +127,11 @@ input[type=number] {
 
 }
 
- 
+ @media only screen and (max-width: 768px){
+.label-td {
+    font-size: 12px;
+}
+}
 
 @media only screen and (max-width: 1024px) {
     .label-td{ font-size: 13px;
@@ -163,8 +167,4 @@ input[type=number] {
     
 } 
 
-@media only screen and (max-width: 768px){
-.label-td {
-    font-size: 12px;
-}
-}
+
